@@ -75,7 +75,7 @@ const displayAllNews =  allNews => {
 
 const ul = document.querySelector('menu ul');
 ul.children[0].addEventListener('click', () => {
-    window.location.href = 'index.html';
+    window.location.href = 'all.html';
 });
 ul.children[1].addEventListener('click', () => {
     window.location.href = 'breaking.html';
@@ -98,6 +98,6 @@ ul.children[6].addEventListener('click', () => {
 ul.children[7].addEventListener('click', () => {
     window.location.href = 'arts.html';
 });
-ul.children[6].addEventListener('click', () => {
-    window.location.href = 'all.html';
+ul.children[8].addEventListener('click', () => {
+    window.location.href = 'index.html';
 });
