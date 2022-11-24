@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Lobster Two', cursive; */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body{
+    background: #f6f6f6;
+}
+header
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+header .container nav
+{
+    padding: 0 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+header .container nav .logo
+{
+    position: relative;
+}
+header .container nav .logo h3
+{
+    font-size: 20px;
+    color: #5D5FEF;
+}
+header .container nav .logo h3 span
+{
+    background: #5D5FEF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+header .container nav .nbp
+{
+    position: relative;
+}
+header .container nav .nbp ul
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container nav .nbp ul li
+{
+    padding: 10px 20px;
+    color: #A3A3A3;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+header .container nav .nbp ul li span
+{
+    position: absolute;
+    top: 80%;
+    left: 23px;
+    width: 15%;
+    height: 3px;
+    border-radius: 2px;
+    margin: auto;
+    background: #5D5FEF;
+    transition: left ;  
+}
+header .container nav .nbp ul .user-img
+{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+header .container nav .nbp .user-img img
+{
+    width: 100%;
+}
+header .container hr
+{
+    height: 0.1em;
+    background-color: #CDCDCD;
+    border: none;
+}
+
+menu
+{
+    position: relative;
+    margin: 20px 0;
+    height: 100px;
+    padding: 0 100px;
+}
+menu ul
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+menu ul li
+{
+    color: #858585;
+    cursor: pointer;
+    font-size: 17px;
+}
+.catagory-list-section
+{
+    height: 50px;
+}
+.catgoryList
+{
+    position: relative;
+    margin: 0 100px;
+    padding: 0 10px;
+    background: #fff;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.catgoryList p
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+.sortby-section
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px 70px;
+}
+.sortby-section .sort 
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+sortby-section .sort p
+{
+    text-transform: capitalize;
+}
+.sortby-section .sort p:nth-child(2)
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90px;
+    color: #858585;
+    cursor: pointer;
+}
+.sortby-section .todays
+{
+    position: relative;
+    display: flex;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sortby-section .todays p
+{
+    font-size: 15px;
+    background: #5D5FEF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.sortby-section .todays p:nth-child(2)
+{
+    background: transparent;
+    color: #5D5FEF;
+    border: 1px solid #5D5FEF;
+}
+
+.news-section
+{
+    position: relative;
+    padding: 0 100px;
+    display: grid;
+    gap: 50px;
+}
+.news-section .news
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 50px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    height: 300px;
+}
+.news-section .news .img-box
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+}
+.news-section .news .img-box img
+{
+    height: 100%;
+    width: 100%;
+
+}
+.news-section .news .textbox
+{
+    position: relative;
+    padding: 20px 0;
+    display: grid;
+
+}
+.news-section .news .textbox .text
+{
+    position: relative;
+    margin-bottom: 20px;
+}
+.news-section .news .textbox .text h3
+{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.news-section .news .textbox .text p
+{
+    font-weight: 300;
+    color: #858585;
+}
+.news-section .news .textbox .author-box
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-section .news .textbox .author-box .author
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;   
+}
+.news-section .news .textbox .author-box .author .author-img
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.news-section .news .textbox .author-box .author .author-img img
+{
+    width: 100%;
+}
+.news-section .news .textbox .author-box .author .author-name
+{
+    position: relative;
+}
+.news-section .news .textbox .author-box .author .autor-name p
+{
+    font-weight: 600;
+}
+.news-section .news .textbox .author-box .author .autor-name p:nth-child(2)
+{
+    font-weight: 400;
+    color: #858585;
+}
+
+.news-section .news .textbox .author-box .view
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px
+}
+.news-section .news .textbox .author-box .view i
+{
+    font-size: 20px;
+}
+.news-section .news .textbox .author-box .view p
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+}
+.news-section .news .textbox .author-box .rating
+{
+    position: relative;
+}
+.news-section .news .textbox .author-box .rating i
+{
+    font-size: 20px;
+    color: #5D5FEF;
+}
+
+.news-section .news .textbox .author-box .read-more
+{
+    position: relative;
+    
+}
+.news-section .news .textbox .author-box .read-more button
+{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #5D5FEF;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+footer
+{
+    height: 150px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+
+
+
+/*Index page design*/
+.all-news
+{
+    padding: 0 100px;
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+.news-details
+{
+    width: 80%;
+}
+.news-headline
+{
+    position: relative;
+    background: #fff;
+    border-radius: 20px;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.news-headline .bg-img
+{
+    position: relative;
+    object-position: center;
+    object-fit: cover;
+    height: 85%;
+    overflow: hidden;
+}
+.news-headline .bg-img .bg-opacity
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+.news-headline .bg-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.news-headline .img-text
+{
+    position: absolute;
+    top: 65%;
+    left: 40px;
+    color: #fff;
+    z-index: 10;
+}
+.news-headline .img-text h2
+{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.news-headline .img-text .ntime
+{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+.ntime p
+{
+    font-size: 16px;
+    color: #A3A3A3;
+}
+.news-headline .news-tab
+{
+    position: relative;
+    height: 15%;
+    padding: 10px 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.news-headline .news-tab .catagoty
+{
+    position: relative;
+}
+.news-headline .news-tab .catagoty p
+{
+    padding: 10px 20px;
+    background: #fdcdcd;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: rgb(255, 27, 27);
+}
+.news-headline .icon
+{
+    position: relative;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-headline .icon p
+{
+    font-size: 1.1em;
+    color: #858585;
+    cursor: pointer;
+}
+.news-headline .details
+{
+    padding: 0 10px;
+}
+.news-details .details p
+{
+    font-size: 1.2em;
+    line-height: 40px;
+    color: #444;
+    font-weight: 300;
+}
+.sidebar-news
+{
+    position: relative;
+    display: grid;
+    width: 20%;
+    gap: 50px;
+}
+.sidebar-news .card-news
+{
+    position: relative;
+    display: grid;
+    background-color: #fff;
+    height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sidebar-news .card-news .card-img
+{
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sidebar-news .card-news .card-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.sidebar-news .card-news .card-text
+{
+    height: 20%;
+    padding: 0 20px;
+}
+.sidebar-news .card-news .card-text h3
+{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.sidebar-news .card-news .card-text .post-time
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar-news .card-news .card-text .post-time p
+{
+    font-size: 0.8em;
+}
