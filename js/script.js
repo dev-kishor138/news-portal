@@ -63,7 +63,7 @@ const displayDetails = data => {
     // console.log(data);
     const newsSection = document.querySelector('.news-section');
     newsSection.innerText = '';
-    const detailsContainer = document.getElementById('details');
+    const detailsContainer = document.querySelector('.details-news');
     detailsContainer.innerHTML = `
         <div class="img-box">
             <img src="${data.image_url}" alt="">

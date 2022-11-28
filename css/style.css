@@ -354,11 +354,11 @@ footer
 
 
 /* details design  */
-.news-details
+.details-news
 {
     margin: 20px 100px;
 }
-.news-details .img-box
+.details-news .img-box
 {
     position: relative;
     width: 100%;
@@ -366,36 +366,36 @@ footer
     height: 400px;
     overflow: hidden;
 }
-.news-details .img-box img
+.details-news .img-box img
 {
     height: 100%;
     width: 100%;
 }
-.news-details .text-box
+.details-news .text-box
 {
     position: relative;
     margin: 20px 0;
 }
-.news-details .text-box h3
+.details-news .text-box h3
 {
     font-size: 30px;
     margin: 10px 0;
 }
-.news-details .text-box p
+.details-news .text-box p
 {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8em;
     color: #444;
 }
-.news-details .author-box
+.details-news .author-box
 {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.news-details .author-box .author-name
+.details-news .author-box .author-name
 {
     position: relative;
     display: flex;
@@ -410,39 +410,39 @@ footer
     overflow: hidden;
     margin-right: 20px;
 }
-.news-details .author-box .author-name .author-img img
+.details-news .author-box .author-name .author-img img
 {
     height: 100%;
     width: 100%;
 }
-.news-details .author-box .author-name .name
+.details-news .author-box .author-name .name
 {
     display: grid;
 }
-.news-details .author-box .author-name .name h4
+.details-news .author-box .author-name .name h4
 {
     font-size: 1.2em;
 }
-.news-details .author-box .icon-box
+.details-news .author-box .icon-box
 {
     display: flex;
     gap: 100px;
 }
-.news-details .author-box .icon-box p
+.details-news .author-box .icon-box p
 {
     font-size: 1.3em;
     color: #3B3B98;
 }
-.news-details .author-box .icon-box p:nth-child(2)
+.details-news .author-box .icon-box p:nth-child(2)
 {
     color: #05c46b;
 }
-.news-details .author-box .icon-box p:nth-child(3)
+.details-news .author-box .icon-box p:nth-child(3)
 {
     color: #ff3f34;
 }
 
-.news-details .author-box .icon-box p span
+.details-news .author-box .icon-box p span
 {
     color: #000;
     margin-left: 10px;
